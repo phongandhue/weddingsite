@@ -7,8 +7,8 @@ description: |
 owner: Vi Ho Phong
 first_published: 2018
 email: vihophong@live.com
-baseurl: "/weddingsite" # the subpath of your site, e.g. /blog
-url: "phongandhue.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "windandchip.info" # the base hostname & protocol for your site
 
 social:
   github: https://github.com/phongandhue/weddingsite.git
