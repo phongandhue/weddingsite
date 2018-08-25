@@ -162,7 +162,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		margin: (_size(element-margin) * 1.5) 0;
 
 		&.major {
-			margin: (_size(element-margin) * 2.25) 0;
+			margin: (_size(element-margin) * 1.25) 0;
 		}
 	}
 
