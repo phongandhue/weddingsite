@@ -39,6 +39,6 @@ layout: landing
   document.addEventListener('click touchstart', musicPlay);
   function musicPlay() {
   document.getElementById('aud').play();
-  document.removeEventListener('click', musicPlay);
+  document.removeEventListener('click touchstart', musicPlay);
   }
 </script>
