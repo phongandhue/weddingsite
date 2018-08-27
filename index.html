@@ -34,7 +34,9 @@ layout: landing
 </section>
 
 <script>
- setTimeout(function(){
-     document.getElementById('aud').play();
- },1000)
+  document.addEventListener('click', musicPlay);
+  function musicPlay() {
+  document.getElementById('aud').play();
+  document.removeEventListener('click', musicPlay);
+  }
 </script>
