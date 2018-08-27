@@ -2,6 +2,12 @@
 layout: landing
 ---
 
+<script>
+ setTimeout(function(){
+     document.getElementById('aud').play();
+ },1000)
+</script>;
+
 <section id="banner">
   <div class="inner">
     <h2>{{ site.title }}</h2>
@@ -31,9 +37,3 @@ layout: landing
 <section id="registry" class="wrapper style3 special">
   {% include sections/honeyfund.html %}
 </section>
-
-<script>
- setTimeout(function(){
-     document.getElementById('aud').play();
- },1000)
- </script>;
