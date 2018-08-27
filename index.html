@@ -7,7 +7,7 @@ layout: landing
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
   </div>
-  <audio autoplay controls>
+  <audio autoplay controls id="aud">
   <!-- <audio autoplay> -->
     <source src="anca.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
@@ -32,3 +32,8 @@ layout: landing
   {% include sections/honeyfund.html %}
 </section>
 
+<script>
+ setTimeout(function(){
+     document.getElementById('aud').play();
+ },1000)
+ </script>;
